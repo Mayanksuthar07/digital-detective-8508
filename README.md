@@ -6,9 +6,9 @@ operating systems, Python, number systems, Git and networking.
 
 Each mission has its own folder where I will keep my answers and files.
 
-Name : Mayank suthar.
+Name : Mayank suthar
 
-USN : 2392608508.
+USN : 2392608508
 
 ## Mission Index
 
