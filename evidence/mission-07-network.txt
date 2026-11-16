@@ -1,0 +1,32 @@
+Network checks on 16 November 2026. IP addresses removed; lookup uses a public DNS resolver.
+
+$ ping -c 3 -W 1000 example.com
+PING example.com ([address redacted]): 56 data bytes
+64 bytes from [address redacted]: icmp_seq=0 ttl=54 time=60.756 ms
+64 bytes from [address redacted]: icmp_seq=1 ttl=54 time=39.587 ms
+64 bytes from [address redacted]: icmp_seq=2 ttl=54 time=39.506 ms
+
+--- example.com ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 39.506/46.616/60.756/9.998 ms
+
+[exit 0]
+
+$ nslookup example.com 1.1.1.1
+Server:		[address redacted]
+Address:	[address redacted]#53
+
+Non-authoritative answer:
+Name:	example.com
+Address: [address redacted]
+Name:	example.com
+Address: [address redacted]
+
+
+[exit 0]
+
+$ curl -I --max-time 15 https://example.com
+Selected response headers (remaining headers and progress meter omitted):
+HTTP/2 200
+content-type: text/html; charset=utf-8
+[exit 0]
