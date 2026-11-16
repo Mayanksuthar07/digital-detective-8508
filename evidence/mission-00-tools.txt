@@ -1,0 +1,7 @@
+$ python3 --version
+Python 3.14.7
+[exit 0]
+
+$ git --version
+git version 2.54.0 (Apple Git-157)
+[exit 0]
