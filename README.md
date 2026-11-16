@@ -23,4 +23,32 @@ Repository: [digital-detective-8508](https://github.com/Mayanksuthar07/digital-d
 
 Each mission is documented and committed separately. Practical command outputs
 are kept in `evidence/`; private account and machine details are removed.
-Setup is complete. The remaining mission notes are being added in order.
+See [the final review](mission-08-final-report/README.md) for completion and submission status.
+
+## Run the number converter
+
+Python 3 is required. No extra packages are needed.
+
+```sh
+cd mission-05-numbers-data
+python3 number_converter.py
+```
+
+For input `13`, the output is `Binary: 0b1101` and `Hexadecimal: 0xd`.
+The program accepts zero and positive integers and explains invalid input.
+
+## Topics explored
+
+- IPOS, hardware and software
+- File commands, flags, pipes, paths and permissions
+- OS responsibilities and running processes
+- Compilers, interpreters and Python scripts
+- Binary, hexadecimal, ASCII and UTF-8
+- Git commits, branches and pull requests
+- Networks, DNS and browser/server communication
+
+## Learning summary
+
+Saving a file, running a program and publishing a commit are separate actions.
+The terminal makes each action explicit. The number converter shows that one
+value can have different representations without changing its meaning.
