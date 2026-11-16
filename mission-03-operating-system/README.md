@@ -24,7 +24,7 @@ The practice file was opened in TextEdit. In the recorded snapshot, TextEdit had
 
 From the repository root, moving into `mission-02-terminal/terminal-practice` added those folder names to the current path.
 
-- Absolute path example, with private directories redacted: `[repository]/mission-02-terminal/terminal-practice/notes.txt`. The real path returned by `pwd` begins with `/` and works independently of the current directory.
+- Absolute path example, with private directories redacted: `/[redacted]/digital-detective-8508/mission-02-terminal/terminal-practice/notes.txt`. The real path returned by `pwd` begins with `/` and works independently of the current directory.
 - Relative path from the repository root: `mission-02-terminal/terminal-practice/notes.txt`.
 
 The original file listing showed `-rw-r--r--` (macOS may also display `@` for extended attributes). The first character identifies a regular file. The owner's next three characters are `rw-`: read and write are allowed, execute is not.

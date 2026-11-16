@@ -1,0 +1,12 @@
+Final verification on 16 November 2026
+
+PASS: all 9 mission READMEs contain the required sections.
+PASS: 30 relative Markdown links resolve.
+PASS: hello.py prints exactly Hello from Python.
+PASS: converter exact outputs for 13, 25, 31 and 0.
+PASS: converter handles letters, fractions, blank input, negatives and EOF.
+PASS: current assignment files have no home directory paths, full USN, personal email or GitHub-token patterns.
+PASS: original practice file and renamed backup match and contain two lines.
+PASS: git diff --check.
+PASS: dedicated commits for missions 0-7 are present before the final-report commit.
+Mission 8 is recorded by the commit containing this verification file; see GitHub history.
