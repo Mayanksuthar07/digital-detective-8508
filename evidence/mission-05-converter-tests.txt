@@ -1,0 +1,41 @@
+Converter checks on 16 November 2026.
+
+Input: '13'
+Enter a non-negative decimal integer: Binary: 0b1101
+Hexadecimal: 0xd
+Result: PASS
+
+Input: '25'
+Enter a non-negative decimal integer: Binary: 0b11001
+Hexadecimal: 0x19
+Result: PASS
+
+Input: '31'
+Enter a non-negative decimal integer: Binary: 0b11111
+Hexadecimal: 0x1f
+Result: PASS
+
+Input: '0'
+Enter a non-negative decimal integer: Binary: 0b0
+Hexadecimal: 0x0
+Result: PASS
+
+Input: 'abc'
+Enter a non-negative decimal integer: Please enter a whole number, such as 13.
+Result: PASS
+
+Input: '3.5'
+Enter a non-negative decimal integer: Please enter a whole number, such as 13.
+Result: PASS
+
+Input: '-7'
+Enter a non-negative decimal integer: Please enter zero or a positive number.
+Result: PASS
+
+Input: ''
+Enter a non-negative decimal integer: Please enter a whole number, such as 13.
+Result: PASS
+
+Input: end of input
+Enter a non-negative decimal integer: No input was provided.
+Result: PASS

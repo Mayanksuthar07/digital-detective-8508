@@ -1,0 +1,26 @@
+Python expressions checked in an interactive session; results paired with expressions below.
+
+>>> bin(13)
+'0b1101'
+>>> bin(25)
+'0b11001'
+>>> int('1010', 2)
+10
+>>> int('1101', 2)
+13
+>>> hex(10)
+'0xa'
+>>> hex(31)
+'0x1f'
+>>> int('A', 16)
+10
+>>> int('1F', 16)
+31
+>>> hex(int('1111', 2))
+'0xf'
+>>> ord('A')
+65
+>>> ord('a')
+97
+>>> 'अ'.encode('utf-8')
+b'\xe0\xa4\x85'
