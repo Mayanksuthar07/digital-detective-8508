@@ -1,0 +1,133 @@
+Recorded on 16 November 2026. Paths and file owners are redacted.
+
+$ pwd
+[repository]/mission-02-terminal
+[exit 0]
+
+$ ls
+README.md
+[exit 0]
+
+$ ls -l
+total 0
+-rw-r--r--@ 1 [owner] [group]  0 Nov 16 17:46 README.md
+[exit 0]
+
+$ cd .. && pwd
+[repository]
+[exit 0]
+
+$ mkdir terminal-practice
+[exit 0]
+
+$ touch terminal-practice/notes.txt
+[exit 0]
+
+$ printf 'First line: terminal practice.\n' > terminal-practice/notes.txt
+[exit 0]
+
+$ printf 'Second line: added without replacing the first.\n' >> terminal-practice/notes.txt
+[exit 0]
+
+$ cp terminal-practice/notes.txt terminal-practice/backup.txt
+[exit 0]
+
+$ mv terminal-practice/backup.txt terminal-practice/notes-backup.txt
+[exit 0]
+
+$ cat terminal-practice/notes.txt
+First line: terminal practice.
+Second line: added without replacing the first.
+[exit 0]
+
+$ touch terminal-practice/.hidden-example
+[exit 0]
+
+$ ls terminal-practice
+notes-backup.txt
+notes.txt
+[exit 0]
+
+$ ls -lah terminal-practice
+total 16
+drwxr-xr-x@ 5 [owner] [group]   160B Nov 16 17:47 .
+drwxr-xr-x@ 4 [owner] [group]   128B Nov 16 17:47 ..
+-rw-r--r--@ 1 [owner] [group]     0B Nov 16 17:47 .hidden-example
+-rw-r--r--@ 1 [owner] [group]    79B Nov 16 17:47 notes-backup.txt
+-rw-r--r--@ 1 [owner] [group]    79B Nov 16 17:47 notes.txt
+[exit 0]
+
+$ ls -l terminal-practice | head -n 3
+total 16
+-rw-r--r--@ 1 [owner] [group]  79 Nov 16 17:47 notes-backup.txt
+-rw-r--r--@ 1 [owner] [group]  79 Nov 16 17:47 notes.txt
+[exit 0]
+
+$ brew --version
+Homebrew 7.0.9
+[exit 0]
+
+$ brew list --formula
+ada-url
+brotli
+c-ares
+ca-certificates
+cairo
+certifi
+cowsay
+deno
+fmt
+fontconfig
+freetype
+gettext
+giflib
+git
+glib
+graphite2
+harfbuzz
+hdrhistogram_c
+icu4c@78
+jpeg-turbo
+json-c
+libffi
+libnghttp2
+libnghttp3
+libngtcp2
+libpng
+libtiff
+libunistring
+libuv
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxrender
+little-cms2
+llhttp
+lz4
+lzo
+merve
+mpdecimal
+nbytes
+node
+openjdk
+openssl@3
+pcre2
+pixman
+python@3.11
+python@3.12
+python@3.14
+readline
+simdjson
+simdutf
+spicetify-cli
+sqlite
+telnet
+uvwasi
+webp
+xorgproto
+xz
+yt-dlp
+zstd
+[exit 0]

@@ -1,0 +1,2 @@
+First line: terminal practice.
+Second line: added without replacing the first.
