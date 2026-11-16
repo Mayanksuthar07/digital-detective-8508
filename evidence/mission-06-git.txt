@@ -1,0 +1,33 @@
+$ git log --oneline -8
+1f7fde0 Add converter instructions and project overview
+9970d21 Build number converter and practise data representation
+a6bb855 Compare compilers and interpreters
+1484aaf Document operating system and file management
+3c3258f Complete Terminal and file management mission
+4c77c67 Complete computer basics and IPOS mission
+9a9c068 Complete workspace setup and tool checks
+313166a Set up Digital Detective mission structure
+[exit 0]
+
+$ git branch -vv
+* main         1f7fde0 [origin/main] Add converter instructions and project overview
+  update-about 7f8a2a1 [origin/update-about] Add My Learning section to README
+[exit 0]
+
+$ git diff main..update-about --stat
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+[exit 0]
+
+Pull request: https://github.com/Mayanksuthar07/digital-detective-8508/pull/1
+Head: update-about
+Base: main
+Status: open, not merged
+Reviewed change: README.md only, 6 added lines.
+
+During the root README exercise, git status --short showed:
+ M README.md
+After git add README.md, git diff --cached --stat showed:
+ README.md | 30 +++++++++++++++++++++++++++++-
+The staged change was committed as 1f7fde0 and pushed to main.
+The branch change was committed as 7f8a2a1 and pushed to update-about.
