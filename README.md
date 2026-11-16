@@ -52,3 +52,9 @@ The program accepts zero and positive integers and explains invalid input.
 Saving a file, running a program and publishing a commit are separate actions.
 The terminal makes each action explicit. The number converter shows that one
 value can have different representations without changing its meaning.
+
+## My Learning
+
+- `>` replaces file contents, while `>>` adds text to the end. This matters when keeping earlier notes.
+- Binary and hexadecimal represent the same value using different bases: decimal 13 is binary 1101 and hexadecimal D.
+- Staging selects changes for the next commit. A branch keeps a proposed change separate until it is reviewed.
