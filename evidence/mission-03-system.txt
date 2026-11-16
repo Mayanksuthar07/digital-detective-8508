@@ -1,0 +1,46 @@
+Snapshot on 16 November 2026; selected, redacted fields.
+
+$ sw_vers -productName
+macOS
+[exit 0]
+
+$ sw_vers -productVersion
+27.2.1
+[exit 0]
+
+$ uname -s
+Darwin
+[exit 0]
+
+$ whoami
+[redacted]
+[exit 0]
+
+$ df -h .
+Selected columns: Size Used Avail Capacity
+926Gi 272Gi 626Gi 31%
+[device and mount path omitted]
+
+$ pwd
+[repository]
+[exit 0]
+
+$ cd mission-02-terminal/terminal-practice && pwd
+[repository]/mission-02-terminal/terminal-practice
+[exit 0]
+
+File permission field for notes.txt: -rw-r--r--
+
+$ open -a /System/Applications/TextEdit.app mission-02-terminal/terminal-practice/notes.txt
+[exit 0]
+
+$ ps -axo pid,pcpu,pmem,comm
+Selected entries; executable directories removed:
+PID    %CPU %MEM NAME
+1       6.5  0.1 launchd
+609    27.6  0.7 WindowServer
+49235   1.2  0.5 TextEdit
+
+First attempt to read processes in the restricted environment was denied.
+First application lookup by short name failed. Using the full app path with
+permitted desktop access opened TextEdit. No administrator privileges used.
