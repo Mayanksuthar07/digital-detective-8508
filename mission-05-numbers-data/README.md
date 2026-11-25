@@ -6,6 +6,8 @@ Show conversion steps, verify them with Python, build a decimal converter and ex
 ## 2. Work completed
 ### 5.1 Conversion working
 
+[Handwritten working for all seven conversions (PDF)](manual-conversions.pdf).
+
 **Decimal 13 to binary:**
 
 ```text
@@ -93,11 +95,14 @@ Invalid input cannot be converted to an integer. This was deliberately checked w
 The program catches ValueError, checks negative values separately and handles EOFError. The valid cases and these error paths were run successfully.
 
 ## 7. Evidence / files
+- [Handwritten manual conversions](manual-conversions.pdf)
 - [number_converter.py](number_converter.py)
 - [Python expression checks](../evidence/mission-05-python-checks.txt)
 - [Nine input checks and outputs](../evidence/mission-05-converter-tests.txt)
 
 ## 8. Commit details
 Commit message: `Build number converter and practise data representation`.
+
+Handwritten notes added with commit message: `Add handwritten Mission 5 conversion notes`.
 
 Published in this repository's [commit history](https://github.com/Mayanksuthar07/digital-detective-8508/commits/main/).
